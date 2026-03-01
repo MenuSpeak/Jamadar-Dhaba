@@ -1197,13 +1197,13 @@
 
    <div class="tabs-scroll">
 <button class="tab active" data-cat="all">🍽️ All Items (सर्व पदार्थ)</button>
-<button class="tab" data-cat="STARTERS">🥗 Starters (स्टार्टर्स)</button>
-<button class="tab" data-cat="MAIN COURSE">🥘 Main Course (मुख्य जेवण)</button>
-<button class="tab" data-cat="SPL. ANT BRA">🌟 Special Items (खास पदार्थ)</button>
-<button class="tab" data-cat="BLACK GRAVY">🥘 Black Gravy (काळा मसाला जेवण)</button>
-<button class="tab" data-cat="DAL CHAWAL">🍚 Dal & Rice (डाळ आणि भात)</button>
-<button class="tab" data-cat="TANDOOR">🫓 Tandoor & Roti (तंदूर आणि रोटी)</button>
-              </div>  
+<button class="tab" data-cat="PURE VEG">🥦 Pure Veg (शुद्ध शाकाहारी)</button>
+<button class="tab" data-cat="NON VEG">🍗 Non-Veg (मांसाहारी)</button>
+<button class="tab" data-cat="SNAKS">🍟 Snacks (नाश्ता/स्नॅक्स)</button>
+<button class="tab" data-cat="EGG ITEMS">🥚 Egg Items (अंड्याचे पदार्थ)</button>
+<button class="tab" data-cat="ROTTI">🫓 Rotti & Bhakri (रोटी आणि भाकरी)</button>
+<button class="tab" data-cat="RICE">🍚 Rice (भात)</button>
+             </div>  
                 </div>
             </div>
 
@@ -1347,8 +1347,82 @@
     <script>
         // Menu Data - FIXED VERSION
         const data = [
-      
 
+
+              
+{"id": 1, "cat": "PURE VEG", "name": "Dal Fry (दाल फ्राय)", "price": "90/- Rs", "desc": "Yellow lentils cooked with tempered spices", "tags": ["Veg"], "img": "img/dal_fry.jpeg"},
+{"id": 2, "cat": "PURE VEG", "name": "Dal Tadka (दाल तडका)", "price": "120/- Rs", "desc": "Lentils tempered with ghee, garlic, and cumin", "tags": ["Veg"], "img": "img/dal_tadka.jpeg"},
+{"id": 3, "cat": "PURE VEG", "name": "Dal Menti (दाल मेथी)", "price": "120/- Rs", "desc": "Lentils cooked with fresh fenugreek leaves", "tags": ["Veg"], "img": "img/dal_menti.jpeg"},
+{"id": 4, "cat": "PURE VEG", "name": "Milk Meti (मिल्क मेथी)", "price": "160/- Rs", "desc": "Fenugreek leaves cooked in a creamy milk base", "tags": ["Veg"], "img": "img/milk_meti.jpeg"},
+{"id": 5, "cat": "PURE VEG", "name": "Menthi Chaman (मेथी चमन)", "price": "160/- Rs", "desc": "Grated paneer and fenugreek in a rich gravy", "tags": ["Veg"], "img": "img/menthi_chaman.jpeg"},
+{"id": 6, "cat": "PURE VEG", "name": "Paneer Butter Masala (पनीर बटर मसाला)", "price": "150/- Rs", "desc": "Cottage cheese in a smooth tomato-butter gravy", "tags": ["Veg"], "img": "img/paneer_butter_masala.jpeg"},
+{"id": 7, "cat": "PURE VEG", "name": "Paneer Tikha (पनीर तिखा)", "price": "180/- Rs", "desc": "Spicy paneer preparation in a thick masala", "tags": ["Veg"], "img": "img/paneer_tikha.jpeg"},
+{"id": 8, "cat": "PURE VEG", "name": "Kaju Paneer (काजू पनीर)", "price": "180/- Rs", "desc": "Combination of cashews and paneer in a rich gravy", "tags": ["Veg"], "img": "img/kaju_paneer.jpeg"},
+{"id": 9, "cat": "PURE VEG", "name": "Kaju Paneer Masala (काजू पनीर मसाला)", "price": "180/- Rs", "desc": "Spicy cashew and cottage cheese curry", "tags": ["Veg"], "img": "img/kaju_paneer_masala.jpeg"},
+{"id": 10, "cat": "PURE VEG", "name": "Masala Paneer (मसाला पनीर)", "price": "160/- Rs", "desc": "Classic spiced cottage cheese curry", "tags": ["Veg"], "img": "img/masala_paneer.jpeg"},
+{"id": 11, "cat": "PURE VEG", "name": "Palak Paneer (पालक पनीर)", "price": "150/- Rs", "desc": "Paneer cubes in a smooth spinach gravy", "tags": ["Veg"], "img": "img/palak_paneer.jpeg"},
+{"id": 12, "cat": "PURE VEG", "name": "Kaju Kari (काजू करी)", "price": "150/- Rs", "desc": "Rich curry made with roasted cashews", "tags": ["Veg"], "img": "img/kaju_kari.jpeg"},
+{"id": 13, "cat": "PURE VEG", "name": "Kaju Masala (काजू मसाला)", "price": "150/- Rs", "desc": "Spiced cashew nut preparation", "tags": ["Veg"], "img": "img/kaju_masala.jpeg"},
+{"id": 14, "cat": "PURE VEG", "name": "Mix Veg (मिक्स व्हेज)", "price": "140/- Rs", "desc": "Assorted vegetables cooked in a spiced gravy", "tags": ["Veg"], "img": "img/mix_veg.jpeg"},
+{"id": 15, "cat": "PURE VEG", "name": "Bhendi Masala (भेंडी मसाला)", "price": "130/- Rs", "desc": "Okra cooked with onions, tomatoes, and spices", "tags": ["Veg"], "img": "img/bhendi_masala.jpeg"},
+{"id": 16, "cat": "PURE VEG", "name": "Bhendi Fry (भेंडी फ्राय)", "price": "120/- Rs", "desc": "Crispy stir-fried okra", "tags": ["Veg"], "img": "img/bhendi_fry.jpeg"},
+{"id": 17, "cat": "PURE VEG", "name": "Tomoto Chatni (टोमॅटो चटणी)", "price": "120/- Rs", "desc": "Tangy and spicy tomato-based dish", "tags": ["Veg"], "img": "img/tomoto_chatni.jpeg"},
+{"id": 18, "cat": "PURE VEG", "name": "Milk Show Bhaji (मिल्क शेव भाजी)", "price": "150/- Rs", "desc": "Creamy milk-based curry with spicy sev", "tags": ["Veg"], "img": "img/milk_show_bhaji.jpeg"},
+{"id": 19, "cat": "PURE VEG", "name": "Show Bhaji (शेव भाजी)", "price": "130/- Rs", "desc": "Spicy curry topped with crispy gram flour noodles", "tags": ["Veg"], "img": "img/show_bhaji.jpeg"},
+{"id": 20, "cat": "NON VEG", "name": "Chiken Chilli (चिकन चिल्ली)", "price": "140/- Rs", "desc": "Crispy chicken tossed in spicy chilli sauce", "tags": ["Non-Veg"], "img": "img/chiken_chilli.jpeg"},
+{"id": 21, "cat": "NON VEG", "name": "Chiken Cury (चिकन करी)", "price": "150/- Rs", "desc": "Traditional chicken preparation in a thin gravy", "tags": ["Non-Veg"], "img": "img/chiken_cury.jpeg"},
+{"id": 22, "cat": "NON VEG", "name": "Chiken Masala (चिकन मसाला)", "price": "160/- Rs", "desc": "Chicken cooked in a thick and spicy masala", "tags": ["Non-Veg"], "img": "img/chiken_masala.jpeg"},
+{"id": 23, "cat": "NON VEG", "name": "Chiken Tikka (चिकन टिक्का)", "price": "150/- Rs", "desc": "Spiced chicken chunks roasted in tandoor", "tags": ["Non-Veg"], "img": "img/chiken_tikka.jpeg"},
+{"id": 24, "cat": "NON VEG", "name": "Chiken Mharaja (चिकन महाराजा)", "price": "180/- Rs", "desc": "Rich chicken curry fit for royalty", "tags": ["Non-Veg"], "img": "img/chiken_mharaja.jpeg"},
+{"id": 25, "cat": "NON VEG", "name": "Chiken 65 (चिकन ६५)", "price": "180/- Rs", "desc": "Spicy deep-fried chicken starter", "tags": ["Non-Veg"], "img": "img/chiken_65.jpeg"},
+{"id": 26, "cat": "NON VEG", "name": "Chiken Fry (चिकन फ्राय)", "price": "200/- Rs", "desc": "Fried chicken seasoned with local spices", "tags": ["Non-Veg"], "img": "img/chiken_fry.jpeg"},
+{"id": 27, "cat": "NON VEG", "name": "Chiken Full Handi (चिकन फुल हंडी)", "price": "800/- Rs", "desc": "Chicken curry cooked in a traditional handi (Full)", "tags": ["Non-Veg"], "img": "img/chiken_full_handi.jpeg"},
+{"id": 28, "cat": "NON VEG", "name": "Chiken Huff Handi (चिकन हाफ हंडी)", "price": "500/- Rs", "desc": "Chicken curry cooked in a traditional handi (Half)", "tags": ["Non-Veg"], "img": "img/chiken_huff_handi.jpeg"},
+{"id": 29, "cat": "NON VEG", "name": "Moton Masala (मटण मसाला)", "price": "180/- Rs", "desc": "Tender mutton cooked in a spicy thick gravy", "tags": ["Non-Veg"], "img": "img/moton_masala.jpeg"},
+{"id": 30, "cat": "NON VEG", "name": "Moton Cury (मटण करी)", "price": "190/- Rs", "desc": "Traditional mutton preparation in a thin gravy", "tags": ["Non-Veg"], "img": "img/moton_cury.jpeg"},
+{"id": 31, "cat": "NON VEG", "name": "Moton Maharaj (मटण महाराज)", "price": "200/- Rs", "desc": "Rich and exotic mutton curry", "tags": ["Non-Veg"], "img": "img/moton_maharaj.jpeg"},
+{"id": 32, "cat": "NON VEG", "name": "Moton Fry (मटण फ्राय)", "price": "200/- Rs", "desc": "Mutton pieces sautéed with dry spices", "tags": ["Non-Veg"], "img": "img/moton_fry.jpeg"},
+{"id": 33, "cat": "NON VEG", "name": "Moton 65 (मटण ६५)", "price": "200/- Rs", "desc": "Spicy deep-fried mutton starter", "tags": ["Non-Veg"], "img": "img/moton_65.jpeg"},
+{"id": 34, "cat": "NON VEG", "name": "Moton Full Handi (मटण फुल हंडी)", "price": "1000/- Rs", "desc": "Mutton curry cooked in a handi (Full)", "tags": ["Non-Veg"], "img": "img/moton_full_handi.jpeg"},
+{"id": 35, "cat": "NON VEG", "name": "Moton Half Handi (मटण हाफ हंडी)", "price": "600/- Rs", "desc": "Mutton curry cooked in a handi (Half)", "tags": ["Non-Veg"], "img": "img/moton_half_handi.jpeg"},
+{"id": 36, "cat": "SNAKS", "name": "Finger Chips (फिंगर चिप्स)", "price": "130/- Rs", "desc": "Crispy deep-fried potato fries", "tags": ["Veg"], "img": "img/finger_chips.jpeg"},
+{"id": 37, "cat": "SNAKS", "name": "Gobi 65 (गोबी ६५)", "price": "150/- Rs", "desc": "Spicy deep-fried cauliflower florets", "tags": ["Veg"], "img": "img/gobi_65.jpeg"},
+{"id": 38, "cat": "SNAKS", "name": "Gobi Manchuri (गोबी मंचुरी)", "price": "150/- Rs", "desc": "Cauliflower tossed in Indo-Chinese sauces", "tags": ["Veg"], "img": "img/gobi_manchuri.jpeg"},
+{"id": 39, "cat": "SNAKS", "name": "Onion Pokoda (कांदा भजी)", "price": "140/- Rs", "desc": "Crispy fried onion fritters", "tags": ["Veg"], "img": "img/onion_pokoda.jpeg"},
+{"id": 40, "cat": "SNAKS", "name": "Masala Papad (मसाला पापड)", "price": "40/- Rs", "desc": "Roasted papad topped with onions, tomatoes, and spices", "tags": ["Veg"], "img": "img/masala_papad.jpeg"},
+{"id": 41, "cat": "SNAKS", "name": "Rost Papad (रोस्ट पापड)", "price": "20/- Rs", "desc": "Plain roasted papad", "tags": ["Veg"], "img": "img/rost_papad.jpeg"},
+{"id": 42, "cat": "SNAKS", "name": "Masala Palli (मसाला शेंगदाणे)", "price": "50/- Rs", "desc": "Spiced and crunchy peanuts", "tags": ["Veg"], "img": "img/masala_palli.jpeg"},
+{"id": 43, "cat": "SNAKS", "name": "Lasoon Fry (लसूण फ्राय)", "price": "140/- Rs", "desc": "Deep-fried garlic with spices", "tags": ["Veg"], "img": "img/lasoon_fry.jpeg"},
+{"id": 44, "cat": "SNAKS", "name": "Rotti Fry (रोटी फ्राय)", "price": "150/- Rs", "desc": "Crispy fried roti pieces with seasoning", "tags": ["Veg"], "img": "img/rotti_fry.jpeg"},
+{"id": 45, "cat": "SNAKS", "name": "Palli (शेंगदाणे)", "price": "20/- Rs", "desc": "Plain salted peanuts", "tags": ["Veg"], "img": "img/palli.jpeg"},
+{"id": 46, "cat": "SNAKS", "name": "Kaju Fry (काजू फ्राय)", "price": "150/- Rs", "desc": "Fried cashews with a touch of salt and spice", "tags": ["Veg"], "img": "img/kaju_fry.jpeg"},
+{"id": 47, "cat": "EGG ITEMS", "name": "Anda Cury (अंडा करी)", "price": "100/- Rs", "desc": "Boiled eggs served in a spiced gravy", "tags": ["Non-Veg"], "img": "img/anda_cury.jpeg"},
+{"id": 48, "cat": "EGG ITEMS", "name": "Egg Masala (अंडा मसाला)", "price": "120/- Rs", "desc": "Eggs cooked in a thick tomato-onion masala", "tags": ["Non-Veg"], "img": "img/egg_masala.jpeg"},
+{"id": 49, "cat": "EGG ITEMS", "name": "Egg Boild Egg (उकडलेले अंडे)", "price": "15/- Rs", "desc": "Plain boiled egg", "tags": ["Non-Veg"], "img": "img/egg_boild.jpeg"},
+{"id": 50, "cat": "EGG ITEMS", "name": "Amblet (ऑम्लेट)", "price": "70/- Rs", "desc": "Classic egg omelette with onions and chillies", "tags": ["Non-Veg"], "img": "img/amblet.jpeg"},
+{"id": 51, "cat": "EGG ITEMS", "name": "Boild Egg Singale Patti (बॉइल्ड एग सिंगल पट्टी)", "price": "30/- Rs", "desc": "Single layer boiled egg preparation", "tags": ["Non-Veg"], "img": "img/boild_egg_singale.jpeg"},
+{"id": 52, "cat": "EGG ITEMS", "name": "Boild Egg Duble Patti (बॉइल्ड एग डबल पट्टी)", "price": "50/- Rs", "desc": "Double layer boiled egg preparation", "tags": ["Non-Veg"], "img": "img/boild_egg_duble.jpeg"},
+{"id": 53, "cat": "EGG ITEMS", "name": "Egg Manchuri (अंडा मंचुरी)", "price": "130/- Rs", "desc": "Boiled egg chunks in Indo-Chinese sauce", "tags": ["Non-Veg"], "img": "img/egg_manchuri.jpeg"},
+{"id": 54, "cat": "EGG ITEMS", "name": "Egg Burjhi (अंडा भुर्जी)", "price": "80/- Rs", "desc": "Spicy scrambled eggs", "tags": ["Non-Veg"], "img": "img/egg_burjhi.jpeg"},
+{"id": 55, "cat": "EGG ITEMS", "name": "Egg Kimna (अंडा खिमा)", "price": "90/- Rs", "desc": "Finely minced eggs cooked with spices", "tags": ["Non-Veg"], "img": "img/egg_kimna.jpeg"},
+{"id": 56, "cat": "ROTTI", "name": "Tanduri (तंदूरी रोटी)", "price": "15/- Rs", "desc": "Oven-baked flatbread", "tags": ["Veg"], "img": "img/tanduri.jpeg"},
+{"id": 57, "cat": "ROTTI", "name": "Teel Rotti (तीळ रोटी)", "price": "20/- Rs", "desc": "Tandoori roti topped with sesame seeds", "tags": ["Veg"], "img": "img/teel_rotti.jpeg"},
+{"id": 58, "cat": "ROTTI", "name": "Butter Nan (बटर नान)", "price": "40/- Rs", "desc": "Leavened flatbread brushed with butter", "tags": ["Veg"], "img": "img/butter_nan.jpeg"},
+{"id": 59, "cat": "ROTTI", "name": "Butter Rotti (बटर रोटी)", "price": "25/- Rs", "desc": "Tandoori roti with butter", "tags": ["Veg"], "img": "img/butter_rotti.jpeg"},
+{"id": 60, "cat": "ROTTI", "name": "Jawari Rotti (ज्वारीची भाकरी)", "price": "12/- Rs", "desc": "Traditional sorghum flatbread", "tags": ["Veg"], "img": "img/jawari_rotti.jpeg"},
+{"id": 61, "cat": "RICE", "name": "Jeera Rice (जीरा राईस)", "price": "100/- Rs", "desc": "Rice flavored with cumin seeds", "tags": ["Veg"], "img": "img/jeera_rice.jpeg"},
+{"id": 62, "cat": "RICE", "name": "Masala Rice (मसाला राईस)", "price": "120/- Rs", "desc": "Spiced and aromatic rice dish", "tags": ["Veg"], "img": "img/masala_rice.jpeg"},
+{"id": 63, "cat": "RICE", "name": "Tpmota Rice (टोमॅटो राईस)", "price": "120/- Rs", "desc": "Tangy rice preparation with tomatoes", "tags": ["Veg"], "img": "img/tpmota_rice.jpeg"},
+{"id": 64, "cat": "RICE", "name": "Ghee Rice (तूप राईस)", "price": "150/- Rs", "desc": "Fragrant rice cooked with clarified butter", "tags": ["Veg"], "img": "img/ghee_rice.jpeg"},
+{"id": 65, "cat": "RICE", "name": "Kaju Rice (काजू राईस)", "price": "150/- Rs", "desc": "Rice cooked with roasted cashew nuts", "tags": ["Veg"], "img": "img/kaju_rice.jpeg"},
+{"id": 66, "cat": "RICE", "name": "Leaman Rice (लिंबू राईस)", "price": "120/- Rs", "desc": "Zesty rice with lemon and peanuts", "tags": ["Veg"], "img": "img/leaman_rice.jpeg"},
+{"id": 67, "cat": "RICE", "name": "Veg Palaw Rice (व्हेज पुलाव)", "price": "150/- Rs", "desc": "Rice cooked with mixed vegetables", "tags": ["Veg"], "img": "img/veg_palaw_rice.jpeg"},
+{"id": 68, "cat": "RICE", "name": "Curd Rice (दही भात)", "price": "140/- Rs", "desc": "Cooling rice mixed with yogurt and tempered", "tags": ["Veg"], "img": "img/curd_rice.jpeg"},
+{"id": 69, "cat": "RICE", "name": "White Rice (पांढरा भात)", "price": "80/- Rs", "desc": "Plain steamed white rice", "tags": ["Veg"], "img": "img/white_rice.jpeg"},
+{"id": 70, "cat": "RICE", "name": "Kaju Curd Rice (काजू दही भात)", "price": "150/- Rs", "desc": "Curd rice topped with roasted cashews", "tags": ["Veg"], "img": "img/kaju_curd_rice.jpeg"},
+{"id": 71, "cat": "RICE", "name": "Dalkichdi (दाल खिचडी)", "price": "150/- Rs", "desc": "Lentils and rice comfort food", "tags": ["Veg"], "img": "img/dalkichdi.jpeg"},
+{"id": 72, "cat": "RICE", "name": "Egg Rice (अंडा राईस)", "price": "120/- Rs", "desc": "Fried rice with scrambled eggs", "tags": ["Non-Veg"], "img": "img/egg_rice.jpeg"},
+{"id": 73, "cat": "RICE", "name": "Chiken Rice (चिकन राईस)", "price": "150/- Rs", "desc": "Spiced rice cooked with chicken pieces", "tags": ["Non-Veg"], "img": "img/chiken_rice.jpeg"},
           
 
 
